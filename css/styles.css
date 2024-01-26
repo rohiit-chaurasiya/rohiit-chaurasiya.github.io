@@ -4008,9 +4008,9 @@ input[type=button].btn-block {
     object-fit: cover;
     border-radius: 0px; 
     width: 100%;
-    height: 31vh;
+    height: 30vh;
     min-height: 30vh;
-    max-height: 31vh;
+    max-height: 30vh;
     padding: 0px;
   }
 }
