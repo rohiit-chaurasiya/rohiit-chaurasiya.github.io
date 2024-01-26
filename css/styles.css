@@ -10892,7 +10892,7 @@ Generic layout (demo looks)
   }
   .form__input.textarea {
     padding: 0;
-    margin: 20px
+    margin: 0px
   }
   .form__input.textarea svg {
     right: 10px;
