@@ -136,12 +136,12 @@ span.highlight_name{
   /* font-size: 30px; */
   font-weight: 600;
   font-size: calc(22px + (40 - 22) * ((100vw - 300px) / (1920 - 300)));
-  /* font-family: "NexaBold"; */
+  font-family: Georgia, serif;
   color: #2b2d42;
 
 }
 
-span.highlight_sklm{
+span .highlight_sklm{
   
   -webkit-box-decoration-break: slice;
   -o-box-decoration-break: slice;
@@ -10417,7 +10417,7 @@ article h2 {
 figure {
   margin: 0;
   padding: 0;
-  aspect-ratio: 16 / 10;
+  /* aspect-ratio: 16 / 10; */
 }
 
 article img {
@@ -10430,8 +10430,8 @@ article img {
 }
 
 .article-body {
-  padding-top: 25px;
-  /* padding: 1px; */
+  /* padding-top: 25px; */
+  padding: 25px 5px;
 }
 
 article a {
