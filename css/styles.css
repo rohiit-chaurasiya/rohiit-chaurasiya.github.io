@@ -119,17 +119,47 @@ address {
 .highlight_name {
   background-image: linear-gradient(to right,#fff, 10.5%,#fdf59d 85.29%,#fff );
   border-bottom-left-radius: 0.125rem;
-  
   border-radius: 5px;
-  padding: 3px 6px;
-
+  padding: 1px 6px;
+  font-weight: 600;
 }
-span.highlight_name{
+
+.highlight_github {
+  background-image: linear-gradient(to right,#fff, 10.5%,#d2eabc 85.29%,#fff );
+  border-bottom-left-radius: 0.125rem;
+  border-radius: 5px;
+  padding: 0px 6px;
+  font-weight: 600;
+}
+
+.highlight_twitter {
+  background-image: linear-gradient(to right,#fff, 10.5%,#adebfd 85.29%,#fff );
+  border-bottom-left-radius: 0.125rem;
+  border-radius: 5px;
+  padding: 0px 6px;
+  font-weight: 600;
+}
+
+.highlight_bio {
+  background-image: linear-gradient(to right,#fff, 10.5%,#fdf59d 85.29%,#fff );
+  border-bottom-left-radius: 0.125rem;
+  border-radius: 5px;
+  padding: 0px 6px;
+  font-weight: 600;
+}
+
+
+span .highlight_name{
   
   -webkit-box-decoration-break: slice;
   -o-box-decoration-break: slice;
   box-decoration-break: slice;
 }
+
+
+
+
+
 
 .highlight_sklm{
 
@@ -10381,7 +10411,7 @@ form .row:first-child .floating-label-form-group {
 
 
 article {
-  /* --img-scale: 1.001; */
+  --img-scale: 1.001;
   --title-color: black;
   --link-icon-translate: -20px;
   --link-icon-opacity: 0;
@@ -10415,7 +10445,7 @@ article h2 {
 }
 
 figure {
-  margin: 0;
+      margin: 15px 0px 0px 0px;
   padding: 0;
   /* aspect-ratio: 16 / 10; */
 }
